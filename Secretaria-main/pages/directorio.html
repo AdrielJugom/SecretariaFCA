@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/css-style.css">
+<link rel="stylesheet" href="../css/css-estilos.css">
+<link rel="stylesheet" href="../css/encabezado.css">
+<link rel="stylesheet" href="../css/contacto.css">
+<link rel="stylesheet" href="../css/css-social_media.css">
+<link rel="shortcut icon" href="../favicons/2854-img-fca.ico">
+<link rel="stylesheet" href="../css/css-font-awesome.min.css">
+<link href="../css/css-layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="../css/css-menu_apoyo.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/socialmedia.js"></script>
+<script src="/components/header.js" defer></script>
+<script src="/components/footer.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.10.1/jarallax.min.js"></script>
+
+<noscript><img height="1" width="1" style="display:none" src="images/tr"></noscript>
+
+<title>Directorio</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .directory {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 100%;
+        max-width: 1000px;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #e6e6e6;
+        margin-bottom: 20px;
+        background-color: #003D79;
+    }
+    .titlemodificado {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #e6e6e6;
+        margin-bottom: 20px;
+        background-color: #068e77;
+    }
+    .title2 {
+        text-align: center;
+        font-size: 16px;
+        color: #ffffff;
+        margin-bottom: 18px;
+        background-color: #6e6e6e;
+    }
+    .section {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        padding: 8px;
+        margin-bottom: 20px;
+        background-color: #efefef;
+        border-radius: 5px;
+
+    }
+    .section:last-child {
+    margin-bottom: 0;
+    }
+    .left {
+    }
+    .right {
+    text-align: right;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <header-bar></header-bar>
+
+    <div class="container">
+        <h1>Directorio</h1>
+        <br>
+        <div class="directory">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="title">
+                    Secretaría de Divulgación y Fomento Editorial
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtro. Gustavo Almaguer Pérez</b><br>
+                        Secretario
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        almaguer@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtra. Hilaria Nuñez Mendoza</b><br>
+                        Apoyo General a la Secretaría
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        hnunez@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Elvira Flores Salazar</b><br>
+                        Apoyo Secretarial
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        eflores@fca.unam.mx
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                    Coordinación de Producción Editorial
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtro. Victor Alejandro Hernández Arteaga</b><br>
+                        Coordinador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        vhernandez@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtro. Iván Ventura González López</b><br>
+                        Editor y Corrector de Estilo
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        iventura@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>LL y LH Paola Jazmín Sánchez Rodríguez</b><br>
+                        Correctora de Estilo
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        pao.jaz26@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Abenhamar Suárez Rodríguez</b><br>
+                        Editor y Corrector de Estilo
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        jabsuarez@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtra. Alma Rosa Villegas Murguía</b><br>
+                        Revista Consultorio Fiscal
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        revistaconsultoriofiscal@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>LD Sonia Ortega Bernal</b><br>
+                        Apoyo Secretarial
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        sonia250t@fca.unam.mx
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación de Diseño Gráfico
+                </div>
+                <div class="section">
+                    <div class="left">
+                    <b>Mtra. Beatríz Andrea Pascual Márquez</b><br>
+                    Coordinadora y Diseñadora
+                    </div>
+                    <div class="right">
+                    <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                    55-5622-8394<br>
+                    <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                    apascual@fca.unam.mx
+                    </div>
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>L.D.G. Ivonne Berenice Carmona Montero</b><br>
+                        Diseñadora
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        ivonne_berenice79@hotmail.com
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Lic. Gabriel Galván Guzmán</b><br>
+                        Diseñador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        ggalvan@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtra. Wendy Rosales Mendieta</b><br>
+                        Diseñadora
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        wrosales@fca.unam.mx
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación de Información e Imagen Institucional
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtro. Romarico Fuentes Romero</b><br>
+                        Coordinador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        rfuentes@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Lic. Luis Fernando Reyes Nolasco</b><br>
+                        Editor y Reportero de Algo Más
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        lryes@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Ruffo López Chávez</b><br>
+                        Fotógrafo
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        rulopez@fca.unam.mx
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación de Difusión
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>L.C. Elena Edith Rivera Martínez</b><br>
+                        Coordinadora
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        eriveram@fca.unam.mx
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación de Medios Audiovisuales
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Lic. Eduardo Peña Hernández</b><br>
+                        Coordinador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtro. Alberto Cacique Cruz</b><br>
+                        Realizador y Productor de Videos
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        acacique@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Mtro. Alan Aarón Torres Cárdenas</b><br>
+                        Productor y Diseñador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        atorres@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Nezahualcoyotl Miguel Jara Vega</b><br>
+                        Realizador y Productor de Videos
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        njara@correo.fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>L.A. Miriam Alejandra Jiménez García</b><br>
+                        Realizador y Productor de Videos
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        mjimenez@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Verónica Alemán Galindo</b><br>
+                        Apoyo Secretarial
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación de Asuntos Legales
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>L.D. Juan Luis Reyes Cano</b><br>
+                        Coordinador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        jreyes@fca.unam.mx
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación de Eventos y Servicios Audiovisuales
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>L.A. Danilo Contreras García</b><br>
+                        Coordinador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        eventos@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>L.A. José Humberto Hernández Marino</b><br>
+                        Apoyo a la Coordinación
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        jhernandez@fca.unam.mx
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. José Andrés Aguilar González</b><br>
+                        Técnico de Aparatos Visuales I
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Antonio Calvo Martínez</b><br>
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. María del Pilar Cerón Estrella</b><br>
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. María Griselda del Carmen Pintor López</b><br>
+                        Apoyo Secretarial
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8296<br>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                    Coordinación de Librerías de la FCA
+                </div>
+                <div class="section">
+                    <div class="left">
+                    <b>Mtra. Jennifer Elein Esquivel Valdepeña y L</b><br>
+                    Coordinadora
+                    </div>
+                    <div class="right">
+                    <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                    55-5622-8262<br>
+                    <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                    jesquivel@fca.unam.mx 
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="left">
+                    <b>Lic Ángel Coria Torres</b><br>
+                    Jefe de Sección C
+                    </div>
+                    <div class="right">
+                    <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                    55-5622-8262<br>
+                    </div>
+                </div>
+                <div class="title2">
+                Turno Matutino 8:30-15:15
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Nancy Villarruel Palma</b><br>
+                        Asistente de Librería CM
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8262<br>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. María Luisa López Linares</b><br>
+                        Asistente de Librería C
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8262<br>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Rosío Valdez González</b><br>
+                        Asistente de Librería A
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8262<br>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Aried Vidal Rodríguez</b><br>
+                        Asistente de Librería B
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8262<br>
+                        </div>
+                    </div>
+                    <div class="title2">
+                    Turno Mixto 11:00-20:30
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Rosa María León Meza</b><br>
+                        Asistente de Librería C
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8262<br>
+                        </div>
+                    </div>
+                    <div class="title2">
+                    Turno Vespertino 15:00-21:00
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Oscar Ernesto Cristóbal León</b><br>
+                        Asistente de Librería C
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8262<br>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación FCA Publishing y Sitios Web
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>L.I. Marvin José Rayas Sánchez</b><br>
+                        Coordinador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        mrayas@fca.unam.mx
+                        </div>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Coordinación del Programa del Libro de Texto
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>Dr. Francisco Alberto Piña Salazar</b><br>
+                        Coordinador
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8394<br>
+                        <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                        fpina@fca.unam.mx
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="title">
+                Imprenta de la FCA
+                </div>
+                <div class="section">
+                    <div class="left">
+                    <b>C. José Alejandro Flores Ledesma</b><br>
+                    Jefe de Sección de Imprenta
+                    </div>
+                    <div class="right">
+                    <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                    55-5622-8402<br>
+                    <img src="/images/icons/correo-electronico.png" style="margin-top: -5px; max-width: 18px;">
+                    alexdrako.63@gmail.com
+                    </div>
+                </div>
+                <div class="title2">
+                Turno Mixto 7:30-17:00
+                </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Consuelo Sánchez Altamirano</b><br>
+                        Técnico
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8402<br>
+                        </div>
+                    </div>
+                    <div class="title2">
+                    Turno Mixto 12:30-22:00
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. César David Cristóbal Suaste</b><br>
+                        Técnico
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8402<br>
+                        </div>
+                    </div>
+                    <div class="title2">
+                    Turno Vespertino 15:00-21:00
+                    </div>
+                    <div class="section">
+                        <div class="left">
+                        <b>C. Gabriela Adriana Martínez Altamirano</b><br>
+                        Técnico
+                        </div>
+                        <div class="right">
+                        <img src="/images/icons/telefono-viejo.png" style="margin-top: -5px; max-width: 18px;">
+                        55-5622-8402<br>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer-menu></footer-menu>
+
+</body>
+</html>

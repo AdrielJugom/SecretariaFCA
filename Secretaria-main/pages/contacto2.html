@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/css-style.css">
+    <link rel="stylesheet" href="/css/acerca.css">
+    <link rel="shortcut icon" href="/favicons/2854-img-fca.ico">
+    <link href="/css/css-menu_apoyo.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/components/header.js" defer></script>
+    <script src="/components/footer.js" defer></script>
+    <script src="/components/header.js" defer></script>
+    <script src="/components/footer.js" defer></script>
+    <style>
+        .mensaje{ font-family: Arial, sans-serif; margin: 40px; background-color: #f8f9fa; }
+        .container { max-width: 500px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .button { width: 100%; }
+    </style>
+</head>
+<body>
+    <header-bar></header-bar>
+    <div style="display: flex; justify-content: center;">
+    <div class="container mt-5 mensaje">
+        <h2 class="text-center">Contacto</h2>
+        <form id="contactForm">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">*Nombre(s) y Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">*Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje/Comentarios:</label>
+                <textarea id="mensaje" name="mensaje" class="form-control" rows="4"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" id="terminos" class="form-check-input" required>
+                <label for="terminos" class="form-check-label">He leído y acepto los términos y condiciones del uso del Aviso de privacidad</label>
+            </div>
+            <button type="submit" id="enviarBtn" class="btn btn-primary button">Enviar comentarios</button>
+        </form>
+    </div>
+</div>
+    <footer-menu></footer-menu>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/contacto.js"></script>
+</body>
+</html>

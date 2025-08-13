@@ -1,0 +1,151 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body{
+    background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+}
+
+.pdf-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.pdf-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.download-btn {
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+}
+
+.download-btn:active {
+    transform: scale(0.95);
+}
+
+.pdf-description h5 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.pdf-description p {
+    margin-bottom: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Estilo para la sección de título con imagen de fondo */
+.hero-section {
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Efecto de oscurecer la imagen */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-transform: none;
+    color: white;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.lineamientos-section {
+    padding: 50px 0;
+    margin: 50px;
+}
+
+.lineamiento-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.lineamiento-card:hover {
+    transform: translateY(-10px);
+}
+
+.contact-section {
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li strong {
+    display: inline-block;
+    width: 100px;
+}
+
+@media (max-width: 767.98px) {
+    .pdf-download-section {
+        height: 1000px;
+    }
+
+    .pdf-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pdf-button {
+        margin-bottom: 15px;
+    }
+
+    .lineamientos-section {
+        margin: 0;
+    }
+}
+
+.btn:focus, .btn:active {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

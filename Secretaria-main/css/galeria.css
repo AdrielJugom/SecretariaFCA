@@ -1,0 +1,59 @@
+.gallery-section {
+    padding: 3rem 1rem; /* Reducir padding en móvil */
+  }
+
+  .gallery-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem; /* Reducir espaciado del título */
+    color: #333;
+  }
+
+  /* Espaciado entre imágenes */
+  .gallery-section .row {
+    margin: 0 -0.5rem; /* Reducir margen entre columnas */
+  }
+
+  .gallery-section .col {
+    padding: 0.5rem;
+  }
+
+  /* Imágenes */
+  .gallery-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+  }
+
+  /* Efecto hover */
+  .gallery-section img:hover {
+    transform: scale(1.03); /* Menor escalado en móvil */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Medias queries para dispositivos móviles */
+  @media (max-width: 576px) {
+    /* Títulos más pequeños en móvil */
+    .gallery-section h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Ajustes en el espaciado y margen para pantallas pequeñas */
+    .gallery-section {
+      padding: 2rem 0.5rem; /* Reducir padding para móviles */
+    }
+
+    /* Imagenes menos escaladas */
+    .gallery-section img:hover {
+      transform: scale(1.02); /* Menor efecto de hover en móvil */
+    }
+
+    /* Espaciado entre columnas */
+    .gallery-section .col {
+      padding: 0.25rem; /* Reducir padding entre imágenes en móvil */
+    }
+  }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/css-style.css">
+<link rel="stylesheet" href="/css/css-estilos.css">
+<link rel="stylesheet" href="/css/encabezado.css">
+<link rel="stylesheet" href="/css/contacto.css">
+<link rel="stylesheet" href="/css/css-social_media.css">
+<link rel="shortcut icon" href="/favicons/2854-img-fca.ico">
+<link rel="stylesheet" href="/css/css-font-awesome.min.css">
+<link href="/css/css-layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="/css/css-menu_apoyo.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/socialmedia.js"></script>
+<script src="/components/header.js" defer></script>
+<script src="/components/footer.js" defer></script>
+
+<noscript><img height="1" width="1" style="display:none" src="/images/tr"></noscript>
+
+<title>Contacto</title>
+
+</head>
+
+<body>
+
+  <header-bar></header-bar>
+
+    <div class="containerContacto">
+        <!-- Título de la sección -->
+        <h1 class="section-title">Conócenos</h1>
+
+        <div class="about">
+            <!-- Información sobre la empresa -->
+            <div class="about-info">
+                <h2>Encuéntranos</h2>
+                <p>
+                    Somos un equipo apasionado de personas dedicadas a brindar los mejores servicios a nuestros clientes.
+                    Nos encontramos en varios puntos estratégicos para atenderte de la mejor manera posible. ¡Conócenos!
+                </p>
+                <p>
+                    Visítanos en nuestras oficinas, o conéctate con nosotros a través de nuestras plataformas en línea. Estamos
+                    aquí para ayudarte y asegurarnos de que tengas la mejor experiencia.
+                </p>
+            </div>
+
+            <!-- Mapa con iframe de Google Maps -->
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.8376953425035!2d-122.084249!3d37.4219999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba2f1b374c01%3A0xd1e0c52790fb7457!2sGoogleplex!5e0!3m2!1sen!2sus!4v1630930390673!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Sección del equipo en un slider/carrusel -->
+        <h2 class="section-title">Nuestro Equipo</h2>
+        <div class="team-slider" id="teamSlider">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Team Member">
+                <h3>Juan Pérez</h3>
+                <p>Director</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Team Member">
+                <h3>Ana Gómez</h3>
+                <p>Directora de Marketing</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Team Member">
+                <h3>Carlos Martínez</h3>
+                <p>Desarrollador Web</p>
+            </div>
+            <!-- Añade aquí las demás 12 tarjetas del equipo -->
+            <!-- Por ejemplo -->
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Team Member">
+                <h3>María López</h3>
+                <p>Diseñadora Gráfica</p>
+            </div>
+            <!-- Repetir tarjetas con los otros miembros del equipo -->
+        </div>
+
+        <!-- Controles del slider -->
+        <div class="slider-controls">
+            <button onclick="scrollSlider(-300)">Anterior</button>
+            <button onclick="scrollSlider(300)">Siguiente</button>
+        </div>
+
+    </div>
+
+
+<script>
+    // Función para desplazar el slider horizontalmente
+    function scrollSlider(distance) {
+        const slider = document.getElementById('teamSlider');
+        slider.scrollBy({ left: distance, behavior: 'smooth' });
+    }
+</script>
+
+<footer-menu></footer-menu>
+
+
+</body>
+</html>

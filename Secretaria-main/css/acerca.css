@@ -1,0 +1,74 @@
+.hero-section {
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1556761175-129418cb2dfe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG90aGVyfGVufDB8fHx8MTYzOTgzMTcwNg&ixlib=rb-1.2.1&q=80&w=1600') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Efecto de oscurecer la imagen */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: none;
+    color: white;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: white;
+}
+
+.about-section {
+    padding: 50px 0;
+}
+
+.values-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.team-section {
+    padding: 50px 0;
+}
+
+.team-member {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.team-member h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+}
